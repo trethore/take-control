@@ -2,7 +2,7 @@
 
 A Chrome extension that prevent some events to take back the control on a web page.
 
-##Installation
+## Installation
 
 1. See: chrome://extensions/
 2. Check developer mode
