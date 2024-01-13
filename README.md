@@ -19,7 +19,7 @@ Feel free to do whatever you want!
 
 Make sure to have Node.js install :
 
-Open a Terminal.\
+Open a Terminal.
 
 Lauch these commands in the directory: \\ 
 npm init -y\
