@@ -13,8 +13,8 @@ A Chrome extension that prevent some events to take back the control on a web pa
 
 1. Click on the extension.
 2. Options.
-
 You can customize many aspects of Take Control,
 Feel free to do whatever you want!
+
 
 Special thanks to "Orthodidact" for giving me the idea of the extension.
