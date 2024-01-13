@@ -24,7 +24,7 @@ Open a Terminal.
 Lauch these commands in the directory: 
 npm init -y\
 npm install --save-dev web-ext\
-npx web-ext build --overwrite-dest\
+npx web-ext build --overwrite-dest
 
 Check web-ext-artifacts folder !
 
