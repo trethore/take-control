@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take Control</title>
+</head>
+<body>
+  <h1>Take Control's Options</h1>
+  <label class="container">
+    <input type="checkbox" id="copy" /> Allow <b>"Copy"</b> on any sites <br>
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">
+    <input type="checkbox" id="paste" /> Allow <b>"Paste"</b> on any sites <br>
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">
+    <input type="checkbox" id="cut" /> Allow <b>"Cut"</b> on any sites <br>
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">
+    <input type="checkbox" id="selectall" /> Allow <b>"Select All"</b> on any sites <br>
+    <span class="checkmark"></span>
+  </label>
+  <button id="save"><b>Save Options</b></button>
+  <script src="options.js"></script>
+</body>
+<style>
+    * {
+      background-color: #111;
+      color: #00ff00;
+      size: 1em;
+    }
+    body {
+            font-family: 'Arial', sans-serif;
+    }
+    h1 {
+      size: 2em;
+    }
+    .container {
+      display: block;
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    .container input {
+      display: none;
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 15px;
+      width: 15px;
+      background-color: #333;
+    }
+
+    .container:hover input ~ .checkmark {
+      background-color: #444;
+    }
+
+    .container input:checked ~ .checkmark {
+      background-color: #00FF00;
+    }
+
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    .container input:checked ~ .checkmark:after {
+      display: block;
+    }
+    .container .checkmark:after {
+      left: 4px;
+      top: 1px;
+      width: 4px;
+      height: 8px;
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    button {
+            background-color: black;
+            padding: 10px;
+            border: solid;
+            border-color: #222;
+            border-radius: 5px;
+            cursor: pointer;
+    }
+</style>
+</html>

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "author": "Titouan Réthoré",
+    "name": "Take Control",
+    "version": "1.0",
+    "description": "Prevent some events to take back the control on a web page.",
+    "permissions": ["activeTab", "tabs","storage"],
+    "action": { 
+      "default_icon": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["main.js"]
+        }
+    ]
+}
