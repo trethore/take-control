@@ -22,7 +22,7 @@ Make sure to have Node.js install :
 Open a Terminal.\
 Lauch this command in the directory :\ 
 npx web-ext build --overwrite-dest\
-Check web-ext-artifacts folder !\
+Check web-ext-artifacts folder !
 
 ## Credits
 Special thanks to "Orthodidact" for giving me the idea of the extension.
