@@ -13,14 +13,15 @@ A Chrome extension that prevent some events to take back the control on a web pa
 
 Click on the extension -> Options.\
 You can customize many aspects of Take Control.\
-Feel free to do whatever you want!\
+Feel free to do whatever you want!
 
 ## Build
 
 Make sure to have Node.js install :
 
 Open a Terminal.\
-Lauch this command in the directory :\ npx web-ext build --overwrite-dest\
+Lauch this command in the directory :\ 
+npx web-ext build --overwrite-dest\
 Check web-ext-artifacts folder !\
 
 ## Credits
